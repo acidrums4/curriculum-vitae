@@ -1,0 +1,119 @@
+\startenvironment icons
+
+\startreusableMPgraphic{ncmnto}
+u := 1cm;
+pair A[],D[];
+path b,c,d;
+
+A[0] :=(   -u, .66u);
+A[1] :=(-.66u,  .5u);
+A[2] :=(-.33u, .66u);
+A[3] :=(    0,  .5u);
+A[4] :=( .33u, .66u);
+A[5] :=( .66u,  .5u);
+A[6] :=(    u, .66u);
+A[7] :=(    u,-.33u);
+A[8] :=(   -u,-.33u);
+A[9] :=(    u,    u);
+A[10]:=(   -u,    u);
+
+D[0] :=(-.33u, 1.5u);
+D[1] :=(    0,1.33u);
+D[2] :=( .33u, 1.5u);
+D[3] :=(    0,   2u);
+
+pickup pencircle scaled 3bp;
+b := A[0]..A[1]..{dir 45}A[2]{dir 315}..A[3]..{dir 45}A[4]{dir 315}..A[5]..A[6]--A[7]--A[8]--cycle;
+c := A[0]..A[1]..{dir 45}A[2]{dir 315}..A[3]..{dir 45}A[4]{dir 315}..A[5]..A[6]--A[9]--A[10]--cycle;
+d := D[0]..D[1]..D[2]{dir 135}..{dir 270}D[3]{dir 270}..cycle;
+draw b withcolor \MPcolor{dtext};
+draw c withcolor \MPcolor{dtext};
+draw d withcolor \MPcolor{dtext};
+draw (-1.33u,-.33u)--(1.33u,-.33u) withcolor \MPcolor{dtext};
+draw (0,u)--(0,1.5u) withcolor \MPcolor{dtext};
+\stopreusableMPgraphic
+
+\startreusableMPgraphic{direcc}
+u := 1cm;
+pair A[];
+path b;
+
+A[0] :=(    0, .66u);
+A[1] :=( .33u, .66u);
+A[2] :=( .33u,-.25u);
+A[3] :=(    u,-.25u);
+A[4] :=(    u,1.33u);
+A[5] :=(    0,   2u);
+A[6] :=(   -u,1.33u);
+A[7] :=(   -u,-.25u);
+A[8] :=(-.33u,-.25u);
+A[9] :=(-.33u, .66u);
+A[10]:=(    0, .66u);
+
+pickup pencircle scaled 3bp;
+b := for i=0 step 1 until 10:
+	A[i]--
+endfor cycle;
+draw b withcolor \MPcolor{dtext};
+draw (-1.33u,-.25u)--(-.33u,-.25u) withcolor \MPcolor{dtext};
+draw (.33u,-.25u)--(1.33u,-.25u) withcolor \MPcolor{dtext};
+draw (0,2u)--(u,1.33u){dir 305}..(1.33u,u) withcolor \MPcolor{dtext};
+draw (0,2u)--(-u,1.33u){dir 235}..(-1.33u,u) withcolor \MPcolor{dtext};
+\stopreusableMPgraphic
+
+\startreusableMPgraphic{correo}
+u := 1cm;
+pair A[],B[];
+path a,b;
+
+A[0] :=(     0, .75u);
+A[1] :=( 1.33u, 1.5u);
+A[2] :=(-1.33u, 1.5u);
+
+B[0] :=( 1.33u, 1.5u);
+B[1] :=( 1.33u,-.33u);
+B[2] :=(-1.33u,-.33u);
+B[3] :=(-1.33u, 1.5u);
+
+pickup pencircle scaled 3bp;
+a := for i=0 step 1 until 2:
+	A[i]--
+endfor cycle;
+b := for i=0 step 1 until 2:
+	B[i]--
+endfor B[3];
+draw a withcolor \MPcolor{dtext};
+draw b withcolor \MPcolor{dtext};
+draw (.66u,u)--(1.33u,-.33u) withcolor \MPcolor{dtext};
+draw (-.66u,u)--(-1.33u,-.33u) withcolor \MPcolor{dtext};
+\stopreusableMPgraphic
+
+\startreusableMPgraphic{portfl}
+u := 1cm;
+pair A[],B[];
+path a,b;
+
+A[0] :=(     0, .5u);
+A[1] :=( 1.33u, 1.25u);
+A[2] :=( 1.33u,1.5u);
+A[3] :=(-1.33u,1.5u);
+A[4] :=(-1.33u, 1.25u);
+
+B[0] :=( 1.33u, 1.25u);
+B[1] :=( 1.33u,-.33u);
+B[2] :=(-1.33u,-.33u);
+B[3] :=(-1.33u, 1.25u);
+
+pickup pencircle scaled 3bp;
+a := for i=0 step 1 until 4:
+	A[i]--
+endfor cycle;
+b := for i=0 step 1 until 2:
+	B[i]--
+endfor B[3];
+draw a withcolor \MPcolor{dtext};
+draw b withcolor \MPcolor{dtext};
+draw (-.66u,1.5u)--(-.66u,2u)--(.66u,2u)--(.66u,1.5u) withcolor \MPcolor{dtext};
+\stopreusableMPgraphic
+
+\stopenvironment

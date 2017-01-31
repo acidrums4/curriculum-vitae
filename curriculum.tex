@@ -1,0 +1,17 @@
+\enabletrackers[system.jobfiles]
+
+\startproject curriculum
+
+\environment setup
+\environment color
+\environment icons
+
+\startproduct curriculum
+
+\doifmodeelse{invoice,cotizar}
+{\component c-invoice}
+{\component c-curriculum}
+
+\stopproduct
+
+\stopproject

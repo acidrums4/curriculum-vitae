@@ -1,0 +1,1627 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="tex.jobname",
+ ["format"]="cont-en",
+ ["stamp"]="2016.05.01 09:52",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.32516629962491,
+ ["sectionblockorder"]={},
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="setup",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={},
+     ["name"]="color",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={
+      {
+       ["branches"]={},
+       ["name"]="c-portada",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-info",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-educacion",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-trabajo",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-habilidades",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-referencias",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="c-portafolio",
+       ["type"]="component",
+      },
+     },
+     ["name"]="curriculum",
+     ["type"]="product",
+    },
+   },
+   ["name"]="curriculum",
+   ["type"]="project",
+  },
+ },
+ ["name"]="curriculum",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+ ["md:h"]={
+  [8]={
+   ["x"]=4475231,
+  },
+  [21]={
+   ["x"]=4475231,
+  },
+  [41]={
+   ["x"]=4475231,
+  },
+  [67]={
+   ["x"]=4475231,
+  },
+  [83]={
+   ["x"]=4475231,
+  },
+ },
+ ["p:1"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=15184319,
+ },
+ ["p:10"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=16659833,
+ },
+ ["p:11"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=15848754,
+ },
+ ["p:12"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=15037675,
+ },
+ ["p:13"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=3,
+  ["x"]=4475231,
+  ["y"]=13314293,
+ },
+ ["p:14"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=12392258,
+ },
+ ["p:15"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=11581179,
+ },
+ ["p:16"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=10770100,
+ },
+ ["p:17"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=3,
+  ["x"]=4475231,
+  ["y"]=9066834,
+ },
+ ["p:18"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=3,
+  ["x"]=4475231,
+  ["y"]=7298032,
+ },
+ ["p:19"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=6375997,
+ },
+ ["p:2"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=13643269,
+ },
+ ["p:20"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=5564918,
+ },
+ ["p:21"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=3,
+  ["x"]=5310821,
+  ["y"]=4753839,
+ },
+ ["p:22"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=4,
+  ["x"]=4475231,
+  ["y"]=24075044,
+ },
+ ["p:23"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=4,
+  ["x"]=4475231,
+  ["y"]=22533994,
+ },
+ ["p:24"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=21611959,
+ },
+ ["p:25"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=19989801,
+ },
+ ["p:26"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=19178722,
+ },
+ ["p:27"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=4,
+  ["x"]=4475231,
+  ["y"]=17455340,
+ },
+ ["p:28"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=16533305,
+ },
+ ["p:29"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=14911147,
+ },
+ ["p:3"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=11874467,
+ },
+ ["p:30"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=14100068,
+ },
+ ["p:31"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=4,
+  ["x"]=4475231,
+  ["y"]=12376686,
+ },
+ ["p:32"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=11454651,
+ },
+ ["p:33"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=9832493,
+ },
+ ["p:34"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=9021414,
+ },
+ ["p:35"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=4,
+  ["x"]=4475231,
+  ["y"]=7298032,
+ },
+ ["p:36"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=6375997,
+ },
+ ["p:37"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=5564918,
+ },
+ ["p:38"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=4,
+  ["x"]=5310821,
+  ["y"]=4753839,
+ },
+ ["p:39"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=20652941,
+ },
+ ["p:4"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=10105665,
+ },
+ ["p:40"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=18884139,
+ },
+ ["p:41"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=17115337,
+ },
+ ["p:42"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=15346535,
+ },
+ ["p:43"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=13577733,
+ },
+ ["p:44"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=11808931,
+ },
+ ["p:45"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=10040129,
+ },
+ ["p:46"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=8336863,
+ },
+ ["p:47"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=6568061,
+ },
+ ["p:48"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=5,
+  ["x"]=4475231,
+  ["y"]=4799259,
+ },
+ ["p:49"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=32610194,
+ },
+ ["p:5"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=8336863,
+ },
+ ["p:50"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=31069144,
+ },
+ ["p:51"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=30147109,
+ },
+ ["p:52"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=28524951,
+ },
+ ["p:53"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=27713872,
+ },
+ ["p:54"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=25990490,
+ },
+ ["p:55"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=25068455,
+ },
+ ["p:56"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=23446297,
+ },
+ ["p:57"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=22635218,
+ },
+ ["p:58"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=20911836,
+ },
+ ["p:59"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=19989801,
+ },
+ ["p:6"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=6568061,
+ },
+ ["p:60"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=18367643,
+ },
+ ["p:61"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=17556564,
+ },
+ ["p:62"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=15833182,
+ },
+ ["p:63"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=14911147,
+ },
+ ["p:64"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=13288989,
+ },
+ ["p:65"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=11565607,
+ },
+ ["p:66"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=10643572,
+ },
+ ["p:67"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=9832493,
+ },
+ ["p:68"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=9021414,
+ },
+ ["p:69"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=6,
+  ["x"]=4475231,
+  ["y"]=7298032,
+ },
+ ["p:7"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=2,
+  ["x"]=4475231,
+  ["y"]=4799259,
+ },
+ ["p:70"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=6375997,
+ },
+ ["p:71"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=5564918,
+ },
+ ["p:72"]={
+  ["d"]=227102,
+  ["h"]=583977,
+  ["hs"]=17155054,
+  ["ls"]=835590,
+  ["p"]=6,
+  ["x"]=5310821,
+  ["y"]=4753839,
+ },
+ ["p:8"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=3,
+  ["x"]=4475231,
+  ["y"]=19350670,
+ },
+ ["p:9"]={
+  ["d"]=272522,
+  ["h"]=700773,
+  ["hs"]=17155054,
+  ["p"]=3,
+  ["x"]=4475231,
+  ["y"]=17581868,
+ },
+ ["page:1"]={
+  ["h"]=40258437,
+  ["p"]=true,
+  ["w"]=26049576,
+  ["x"]=true,
+  ["y"]=0,
+ },
+ ["text:1"]={
+  ["h"]=36734192,
+  ["p"]=1,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:2"]={
+  ["h"]=33004833,
+  ["p"]=2,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:3"]={
+  ["h"]=33004833,
+  ["p"]=3,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:4"]={
+  ["h"]=33004833,
+  ["p"]=4,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:5"]={
+  ["h"]=33004833,
+  ["p"]=5,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:6"]={
+  ["h"]=33004833,
+  ["p"]=6,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+ ["text:7"]={
+  ["h"]=36734192,
+  ["p"]=7,
+  ["w"]=17155054,
+  ["x"]=4475231,
+  ["y"]=3524245,
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:10"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:11"]={
+  { 2, 0 },
+ },
+ ["itemgroup:itemize:12"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:13"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:2"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:3"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:4"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:5"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:6"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:7"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:8"]={
+  { 3, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 3, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+ ["margintext"]={ 2, 3, 4, 5, 6, 7 },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["chemical"]={
+  { 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0 },
+ },
+ ["graphic"]={
+  { 0 },
+ },
+ ["intermezzo"]={
+  { 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0 },
+ },
+ ["realpage"]={
+  { 7 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0 },
+ },
+ ["userpage"]={
+  { 7 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-info",
+   ["internal"]=1,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=35742646,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="\\starteffect [outline]datos\\stopeffect {}personales",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=2,
+   ["order"]=1,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=13643269,
+  },
+  ["titledata"]={
+   ["title"]="Nombre",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=3,
+   ["order"]=2,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=11874467,
+  },
+  ["titledata"]={
+   ["title"]="Nacimiento",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=4,
+   ["order"]=3,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=10105665,
+  },
+  ["titledata"]={
+   ["title"]="Dirección",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=5,
+   ["order"]=4,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=8336863,
+  },
+  ["titledata"]={
+   ["title"]="Teléfono",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=6,
+   ["order"]=5,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=6568061,
+  },
+  ["titledata"]={
+   ["title"]="Celular",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-info",
+   ["internal"]=7,
+   ["order"]=6,
+   ["realpage"]=2,
+   ["section"]=1,
+   ["x"]=4475231,
+   ["y"]=4799259,
+  },
+  ["titledata"]={
+   ["title"]="Correo",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-educacion",
+   ["internal"]=8,
+   ["realpage"]=3,
+   ["section"]=2,
+   ["x"]=4475231,
+   ["y"]=35742646,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="\\starteffect [outline]formación\\stopeffect {}académica",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-educacion",
+   ["internal"]=9,
+   ["order"]=7,
+   ["realpage"]=3,
+   ["section"]=2,
+   ["x"]=4475231,
+   ["y"]=17581868,
+  },
+  ["titledata"]={
+   ["title"]="Diseño gráfico",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-educacion",
+   ["internal"]=10,
+   ["order"]=8,
+   ["realpage"]=3,
+   ["section"]=2,
+   ["x"]=4475231,
+   ["y"]=13314293,
+  },
+  ["titledata"]={
+   ["title"]="Ingeniería electrónica",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-educacion",
+   ["internal"]=11,
+   ["order"]=9,
+   ["realpage"]=3,
+   ["section"]=2,
+   ["x"]=4475231,
+   ["y"]=7298032,
+  },
+  ["titledata"]={
+   ["title"]="Kinder -- 11°",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-trabajo",
+   ["internal"]=12,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=4475231,
+   ["y"]=35742646,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="\\starteffect [outline]experiencia\\stopeffect {}laboral",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-trabajo",
+   ["internal"]=13,
+   ["order"]=10,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=4475231,
+   ["y"]=22533994,
+  },
+  ["titledata"]={
+   ["title"]="Diseñador gráfico / web",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-trabajo",
+   ["internal"]=14,
+   ["order"]=11,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=4475231,
+   ["y"]=17455340,
+  },
+  ["titledata"]={
+   ["title"]="Diseñador gráfico / web",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-trabajo",
+   ["internal"]=15,
+   ["order"]=12,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=4475231,
+   ["y"]=12376686,
+  },
+  ["titledata"]={
+   ["title"]="Diseñador gráfico / web \\| Analista de usabilidad",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-trabajo",
+   ["internal"]=16,
+   ["order"]=13,
+   ["realpage"]=4,
+   ["section"]=3,
+   ["x"]=4475231,
+   ["y"]=7298032,
+  },
+  ["titledata"]={
+   ["title"]="Maquetador web",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=10,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-habilidades",
+   ["internal"]=17,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=35742646,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="\\starteffect [outline]algunas\\stopeffect {}habilidades",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=18,
+   ["order"]=14,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=18884139,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=25mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=19,
+   ["order"]=15,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=17115337,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=20mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=20,
+   ["order"]=16,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=15346535,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=20mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=21,
+   ["order"]=17,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=13577733,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=20mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=22,
+   ["order"]=18,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=11808931,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=15mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=23,
+   ["order"]=19,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=10040129,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=25mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=24,
+   ["order"]=20,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=6568061,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=25mm]",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-habilidades",
+   ["internal"]=25,
+   ["order"]=21,
+   ["realpage"]=5,
+   ["section"]=4,
+   ["x"]=4475231,
+   ["y"]=4799259,
+  },
+  ["titledata"]={
+   ["title"]="\\blackrule [width=20mm]",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=12,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-referencias",
+   ["internal"]=26,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=35742646,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="\\starteffect [outline]referencias\\stopeffect {}laborales",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=27,
+   ["order"]=22,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=31069144,
+  },
+  ["titledata"]={
+   ["title"]="Martha Lucía Chaves",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=28,
+   ["order"]=23,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=25990490,
+  },
+  ["titledata"]={
+   ["title"]="Javier Morales",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=29,
+   ["order"]=24,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=20911836,
+  },
+  ["titledata"]={
+   ["title"]="Pedro Daniel Valero",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=30,
+   ["order"]=25,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=15833182,
+  },
+  ["titledata"]={
+   ["title"]="Christian Navarrete",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=31,
+   ["order"]=26,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=11565607,
+  },
+  ["titledata"]={
+   ["title"]="Giovanni Murcia",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["references"]={
+   ["component"]="c-referencias",
+   ["internal"]=32,
+   ["order"]=27,
+   ["realpage"]=6,
+   ["section"]=5,
+   ["x"]=4475231,
+   ["y"]=7298032,
+  },
+  ["titledata"]={
+   ["title"]="Ricardo Gil Rivera",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=14,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="c-portafolio",
+   ["internal"]=33,
+   ["realpage"]=7,
+   ["section"]=6,
+   ["x"]=13052755,
+   ["y"]=38097722,
+  },
+  ["titledata"]={
+   ["label"]="section",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=7,
+  ["numberdata"]=15,
+  ["prefixdata"]=16,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+ { 2, 1 },
+ { 6, 2 },
+ { 7, 8 },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="section",
+  },
+  { 0, 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=3,
+   ["name"]="datos",
+  },
+  { 0, 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 3 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=7,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 4 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=9,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 5 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=11,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 6 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="es",
+   ["numbers"]=13,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata

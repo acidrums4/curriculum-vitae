@@ -1,0 +1,20 @@
+\enabletrackers[system.jobfiles]
+
+\startproject invoice
+
+\environment setup
+\environment color
+
+\startproduct invoice
+\setuppapersize[letter]
+\setuplayout[textwidth=216mm,header=30mm]
+\setupbodyfont[mosk,9pt]
+\defineparagraphs[doscolumnas][distance=6mm]
+\defineparagraphs[DosColumnas][distance=12mm]
+\setupparagraphs[doscolumnas][1][width=.1665\makeupwidth,align=flushright]
+\setupparagraphs[DosColumnas][1][width=.666\makeupwidth]
+
+\component c-invoice
+\stopproduct
+
+\stopproject

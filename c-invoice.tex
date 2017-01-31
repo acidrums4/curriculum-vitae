@@ -1,0 +1,52 @@
+\startcomponent c-invoice
+
+\startDosColumnas
+
+\startdoscolumnas
+\vskip1mm\externalfigure[logotipo][width=.1665\textwidth]
+\doscolumnas
+\nombre{Miler}\blank[small]
+\nombre{Moreno}\blank[medium]
+\subtitulo{Diseñador gráfico / web}
+\stopdoscolumnas
+
+\DosColumnas
+
+\startcolor[mtext]
+\startalignment[right]
+\vskip-1mm
+{\kerncharacters[.075]\color[dtext]{\date}}
+\blank[medium]\textrule\blank[medium]
+Celular \textbullet\ {\sm\color[dtext]{(57 1) 300 656 9075}}\par
+e-mail \textbullet\  {\from[correogmail]}\par
+portafolio \textbullet\  {\from[wportafolio]}
+\stopalignment
+\vskip-1mm
+\stopcolor
+
+\stopDosColumnas
+
+\tituloinvoice
+\metadatoinvoice{Referencia}{Blog para el sitio \quote{controlyconfort.com}}
+
+\startlineainvoice
+
+\iteminvoice[3][
+\item Instalación y parametrización de WordPress][8 500]
+{Instalación de la plataforma de blog}{25 500}
+
+\iteminvoice[1][][8 500]
+{Vinculación al sitio web}{8 500}
+
+\iteminvoice[2][][8 500]
+{Ajustes a la base de datos del sitio web}{17 000}
+
+\iteminvoice[2][][8 500]
+{Preparación e inicialización del blog}{17 000}
+
+\totalinvoice{68 000}
+\vfill
+\notainvoice[\item Los cambios adicionales a lo estipulado se cobrarán a razón de \$9 500 por hora.]
+\midaligned{\kerncharacters[0.15]\color[azulv]{\bfb\from[xportafolio]}}
+
+\stopcomponent
