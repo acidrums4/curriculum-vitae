@@ -36,7 +36,7 @@ metapost        > initializing instance 'metafun' using format 'metafun'
 metapost        > loading 'metafun' as '/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/metafun.mpiv' using method 'default'
 metapost        > initializing number mode 'scaled'
 
-Overfull \hbox (4.85707pt too wide) in paragraph at lines 44--44
+Overfull \hbox (4.85707pt too wide) in paragraph at lines 45--45
 [][]\3>mosk-12pt-rm-tf-4--4 FACULTAD DE ARTES, UNIVERSIDAD NACIONAL DE COLOMBIA 
 
 \hbox(12.09602+4.704)x311.78377, glue set - 1.0, direction TLT
@@ -52,7 +52,7 @@ Overfull \hbox (4.85707pt too wide) in paragraph at lines 44--44
 .etc.
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 82--82
+Underfull \hbox (badness 1484) in paragraph at lines 83--83
  []\3>mosk-12pt-rm-tf-4--4 (Kin-der - 11°)[]
 
 \hbox(12.09602+4.704)x113.41562, glue set 2.4605, direction TLT
@@ -68,7 +68,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 82--82
 .etc.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 89--89
+Underfull \hbox (badness 1173) in paragraph at lines 90--90
  [][]\3>mosk-12pt-mm-mb--1 311 217 5478[]
 
 \hbox(12.09602+4.704)x113.41562, glue set 2.27338, direction TLT
@@ -84,7 +84,7 @@ Underfull \hbox (badness 1173) in paragraph at lines 89--89
 .etc.
 
 
-Overfull \hbox (3.5623pt too wide) in paragraph at lines 89--89
+Overfull \hbox (3.5623pt too wide) in paragraph at lines 90--90
 [][]\3>mosk-12pt-rm-tf-0-a-0 Ch-ris-tian Na-va-rre-te \3>mosk-12pt-mm-mb--1 • crist-hian.na-va-rre-te.un@gmail.com 
 
 \hbox(12.09602+4.704)x311.78377, glue set - 1.0, direction TLT
@@ -100,7 +100,7 @@ Overfull \hbox (3.5623pt too wide) in paragraph at lines 89--89
 .etc.
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 91--91
+Underfull \hbox (badness 1968) in paragraph at lines 92--92
  [][]\3>mosk-12pt-mm-mb--1 703 6608[]
 
 \hbox(12.09602+4.704)x113.41562, glue set 2.70065, direction TLT
@@ -116,7 +116,7 @@ Underfull \hbox (badness 1968) in paragraph at lines 91--91
 .etc.
 
 
-Overfull \hbox (11.83606pt too wide) in paragraph at lines 28--114
+Overfull \hbox (11.83606pt too wide) in paragraph at lines 29--115
 [][] 
 
 \hbox(12.09602+918.65471)x680.02087, direction TLT
@@ -170,7 +170,7 @@ fonts           > names > scanning path '/usr/share/context/tex/texmf-linux' for
 fonts           > names > 0 entries found, 0 OTF files checked, 0 okay
 fonts           > names > scanning path '/usr/share/context/tex/texmf' for OTF files
 fonts           > names > 0 entries found, 215 OTF files checked, 215 okay
-fonts           > names > 432 tree files identified, 0 skipped, 0 duplicates, 432 hash entries added, runtime 0.320 seconds
+fonts           > names > 432 tree files identified, 0 skipped, 0 duplicates, 432 hash entries added, runtime 0.173 seconds
 fonts           > names > identifying tree font files with suffix 'ttf'
 fonts           > names > scanning path '/usr/share/context/tex/texmf-project' for ttf files
 fonts           > names > 0 entries found, 0 ttf files checked, 0 okay
@@ -201,7 +201,7 @@ fonts           > names > scanning path '/usr/share/context/tex/texmf-linux' for
 fonts           > names > 0 entries found, 0 TTF files checked, 0 okay
 fonts           > names > scanning path '/usr/share/context/tex/texmf' for TTF files
 fonts           > names > 0 entries found, 39 TTF files checked, 39 okay
-fonts           > names > 80 tree files identified, 0 skipped, 0 duplicates, 80 hash entries added, runtime 0.245 seconds
+fonts           > names > 80 tree files identified, 0 skipped, 0 duplicates, 80 hash entries added, runtime 0.145 seconds
 fonts           > names > identifying tree font files with suffix 'ttc'
 fonts           > names > scanning path '/usr/share/context/tex/texmf-project' for ttc files
 fonts           > names > 0 entries found, 0 ttc files checked, 0 okay
@@ -232,7 +232,7 @@ fonts           > names > scanning path '/usr/share/context/tex/texmf-linux' for
 fonts           > names > 0 entries found, 0 TTC files checked, 0 okay
 fonts           > names > scanning path '/usr/share/context/tex/texmf' for TTC files
 fonts           > names > 0 entries found, 0 TTC files checked, 0 okay
-fonts           > names > 0 tree files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 0.226 seconds
+fonts           > names > 0 tree files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 0.152 seconds
 fonts           > names > identifying tree font files with suffix 'afm'
 fonts           > names > scanning path '/usr/share/context/tex/texmf-project' for afm files
 fonts           > names > 0 entries found, 0 afm files checked, 0 okay
@@ -263,7 +263,7 @@ fonts           > names > scanning path '/usr/share/context/tex/texmf-linux' for
 fonts           > names > 0 entries found, 0 AFM files checked, 0 okay
 fonts           > names > scanning path '/usr/share/context/tex/texmf' for AFM files
 fonts           > names > 0 entries found, 96 AFM files checked, 96 okay
-fonts           > names > 212 tree files identified, 0 skipped, 0 duplicates, 212 hash entries added, runtime 0.830 seconds
+fonts           > names > 212 tree files identified, 0 skipped, 0 duplicates, 212 hash entries added, runtime 0.478 seconds
 fonts           > names > identifying system font files with suffix 'otf'
 fonts           > names > 'OSFONTDIR' specifies path '/usr/local/share/fonts'
 fonts           > names > 'OSFONTDIR' specifies path '/home/mp/.fonts'
@@ -277,7 +277,7 @@ fonts           > names > identifying system font files with suffix 'OTF'
 fonts           > names > globbing path '/home/mp/.fonts/**.OTF'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.OTF'
 fonts           > names > globbing path '/usr/local/share/fonts/**.OTF'
-fonts           > names > 8061 system files identified, 718 skipped, 718 duplicates, 7343 hash entries added, runtime 3.530 seconds
+fonts           > names > 8061 system files identified, 718 skipped, 718 duplicates, 7343 hash entries added, runtime 2.525 seconds
 fonts           > names > identifying system font files with suffix 'ttf'
 fonts           > names > globbing path '/home/mp/.fonts/**.ttf'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.ttf'
@@ -311,7 +311,7 @@ fonts           > names > identifying system font files with suffix 'TTF'
 fonts           > names > globbing path '/home/mp/.fonts/**.TTF'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.TTF'
 fonts           > names > globbing path '/usr/local/share/fonts/**.TTF'
-fonts           > names > 8617 system files identified, 602 skipped, 602 duplicates, 8015 hash entries added, runtime 4.928 seconds
+fonts           > names > 8617 system files identified, 602 skipped, 602 duplicates, 8015 hash entries added, runtime 3.366 seconds
 fonts           > names > identifying system font files with suffix 'ttc'
 fonts           > names > globbing path '/home/mp/.fonts/**.ttc'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.ttc'
@@ -320,7 +320,7 @@ fonts           > names > identifying system font files with suffix 'TTC'
 fonts           > names > globbing path '/home/mp/.fonts/**.TTC'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.TTC'
 fonts           > names > globbing path '/usr/local/share/fonts/**.TTC'
-fonts           > names > 0 system files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 1.772 seconds
+fonts           > names > 0 system files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 1.197 seconds
 fonts           > names > identifying system font files with suffix 'afm'
 fonts           > names > globbing path '/home/mp/.fonts/**.afm'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.afm'
@@ -329,7 +329,7 @@ fonts           > names > identifying system font files with suffix 'AFM'
 fonts           > names > globbing path '/home/mp/.fonts/**.AFM'
 fonts           > names > globbing path '/home/mp/Público/tipos/ttf/**.AFM'
 fonts           > names > globbing path '/usr/local/share/fonts/**.AFM'
-fonts           > names > 0 system files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 1.887 seconds
+fonts           > names > 0 system files identified, 0 skipped, 0 duplicates, 0 hash entries added, runtime 1.141 seconds
 fonts           > names > 693 files rejected due to clashes
 fonts           > names > 2255 double lookups in 'mappings'
 fonts           > names > 1037 double lookups in 'fallbacks'
@@ -418,7 +418,7 @@ fonts           > names > registered fonts : 15019
 fonts           > names > read files       : 17402
 fonts           > names > skipped files    : 1320
 fonts           > names > duplicate files  : 1320
-fonts           > names > total scan time  : 15.563 seconds
+fonts           > names > total scan time  : 10.307 seconds
 system          > lua > compiling '/home/mp/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/fonts/data/names.tma' into '/home/mp/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/fonts/data/names.tmc'
 system          > lua > dumping '/home/mp/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/fonts/data/names.tma' into '/home/mp/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e/fonts/data/names.tmc' stripped
 backend         > xmp > using file '/usr/share/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
@@ -442,58 +442,57 @@ system          > structure > stop used structure
 system          > files > start used files
 
 used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 used file       >    3: filename=cont-new.mkiv filetype=tex foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-used file       >    4: filename=lang-us.lua filetype=scripts foundname=/usr/share/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=lua foundname=/usr/share/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 used file       >    5: filename=/home/mp/Documentos/curriculum/curriculum.tex foundname=/home/mp/Documentos/curriculum/curriculum.tex usedmethod=direct
 used file       >    6: filename=setup.tex foundname=setup.tex usedmethod=direct
-used file       >    7: filename=lang-es.lua filetype=scripts foundname=/usr/share/context/tex/texmf-context/tex/context/patterns/mkiv/lang-es.lua usedmethod=database
+used file       >    7: filename=lang-es.lua filetype=lua foundname=/usr/share/context/tex/texmf-context/tex/context/patterns/mkiv/lang-es.lua usedmethod=database
 used file       >    8: filename=type-mosk.mkiv foundname=type-mosk.mkiv usedmethod=direct
 used file       >    9: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Regular.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Regular.otf usedmethod=direct
 used file       >   10: filename=color.tex foundname=color.tex usedmethod=direct
 used file       >   11: filename=icons.tex foundname=icons.tex usedmethod=direct
 used file       >   12: filename=c-curriculum.tex foundname=c-curriculum.tex usedmethod=direct
-used file       >   13: filename=/home/mp/Documentos/curriculum/logotipo.pdf format=tex foundname=/home/mp/Documentos/curriculum/logotipo.pdf usedmethod=direct
-used file       >   14: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Bold.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Bold.otf usedmethod=direct
-used file       >   15: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Light.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Light.otf usedmethod=direct
-used file       >   16: filename=metafun.mpiv filetype=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/metafun.mpiv usedmethod=database
-used file       >   17: filename=mp-base.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-base.mpiv usedmethod=database
-used file       >   18: filename=mp-tool.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-tool.mpiv usedmethod=database
-used file       >   19: filename=mp-mlib.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-mlib.mpiv usedmethod=database
-used file       >   20: filename=mp-luas.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-luas.mpiv usedmethod=database
-used file       >   21: filename=mp-page.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-page.mpiv usedmethod=database
-used file       >   22: filename=mp-butt.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-butt.mpiv usedmethod=database
-used file       >   23: filename=mp-shap.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-shap.mpiv usedmethod=database
-used file       >   24: filename=mp-grph.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-grph.mpiv usedmethod=database
-used file       >   25: filename=mp-grid.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-grid.mpiv usedmethod=database
-used file       >   26: filename=mp-form.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-form.mpiv usedmethod=database
-used file       >   27: filename=mp-figs.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-figs.mpiv usedmethod=database
-used file       >   28: filename=mp-func.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-func.mpiv usedmethod=database
-used file       >   29: filename=mp-apos.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-apos.mpiv usedmethod=database
-used file       >   30: filename=mp-abck.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-abck.mpiv usedmethod=database
-used file       >   31: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Medium.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Medium.otf usedmethod=direct
-used file       >   32: filename=mp-crop.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-crop.mpiv usedmethod=database
-used file       >   33: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/context/contnav.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/context/contnav.afm usedmethod=direct
-used file       >   34: filename=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans-sh.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans-sh.afm usedmethod=direct
-used file       >   35: filename=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans.afm usedmethod=direct
-used file       >   36: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters-contour.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters-contour.afm usedmethod=direct
-used file       >   37: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters.afm usedmethod=direct
-used file       >   38: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos-contour.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos-contour.afm usedmethod=direct
-used file       >   39: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos.afm usedmethod=direct
-used file       >   40: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-ex.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-ex.afm usedmethod=direct
-used file       >   41: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-mi.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-mi.afm usedmethod=direct
-used file       >   42: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-sy.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-sy.afm usedmethod=direct
-used file       >   43: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr10.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr10.afm usedmethod=direct
-used file       >   44: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr12.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr12.afm usedmethod=direct
-used file       >   45: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr17.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr17.afm usedmethod=direct
-used file       >   46: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr5.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr5.afm usedmethod=direct
-used file       >   47: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr6.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr6.afm usedmethod=direct
-used file       >   48: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr7.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr7.afm usedmethod=direct
-used file       >   49: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr8.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr8.afm usedmethod=direct
-used file       >   50: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr9.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr9.afm usedmethod=direct
-used file       >   51: filename=/usr/share/context/tex/texmf/fonts/afm/public/marvosym/marvosym.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/marvosym/marvosym.afm usedmethod=direct
-used file       >   52: filename=dejavusansmono filetype=ttf format=ttf foundname=/usr/share/context/tex/texmf/fonts/truetype/public/dejavu/DejaVuSansMono.ttf usedmethod=database
-used file       >   53: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+used file       >   13: filename=metafun.mpiv filetype=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/metafun.mpiv usedmethod=database
+used file       >   14: filename=mp-base.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-base.mpiv usedmethod=database
+used file       >   15: filename=mp-tool.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-tool.mpiv usedmethod=database
+used file       >   16: filename=mp-mlib.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-mlib.mpiv usedmethod=database
+used file       >   17: filename=mp-luas.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-luas.mpiv usedmethod=database
+used file       >   18: filename=mp-page.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-page.mpiv usedmethod=database
+used file       >   19: filename=mp-butt.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-butt.mpiv usedmethod=database
+used file       >   20: filename=mp-shap.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-shap.mpiv usedmethod=database
+used file       >   21: filename=mp-grph.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-grph.mpiv usedmethod=database
+used file       >   22: filename=mp-grid.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-grid.mpiv usedmethod=database
+used file       >   23: filename=mp-form.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-form.mpiv usedmethod=database
+used file       >   24: filename=mp-figs.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-figs.mpiv usedmethod=database
+used file       >   25: filename=mp-func.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-func.mpiv usedmethod=database
+used file       >   26: filename=mp-apos.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-apos.mpiv usedmethod=database
+used file       >   27: filename=mp-abck.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-abck.mpiv usedmethod=database
+used file       >   28: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Bold.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Bold.otf usedmethod=direct
+used file       >   29: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Light.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Light.otf usedmethod=direct
+used file       >   30: filename=/home/mp/Público/tipos/ttf/_tipos/Affogato-Medium.otf format=otf foundname=/home/mp/Público/tipos/ttf/_tipos/Affogato-Medium.otf usedmethod=direct
+used file       >   31: filename=mp-crop.mpiv filetype=mp format=mp foundname=/usr/share/context/tex/texmf-context/metapost/context/base/mpiv/mp-crop.mpiv usedmethod=database
+used file       >   32: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/context/contnav.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/context/contnav.afm usedmethod=direct
+used file       >   33: filename=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans-sh.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans-sh.afm usedmethod=direct
+used file       >   34: filename=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/jmn/hans/hans.afm usedmethod=direct
+used file       >   35: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters-contour.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters-contour.afm usedmethod=direct
+used file       >   36: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeieletters.afm usedmethod=direct
+used file       >   37: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos-contour.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos-contour.afm usedmethod=direct
+used file       >   38: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeielogos.afm usedmethod=direct
+used file       >   39: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-ex.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-ex.afm usedmethod=direct
+used file       >   40: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-mi.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-mi.afm usedmethod=direct
+used file       >   41: filename=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-sy.afm foundname=/usr/share/context/tex/texmf-context/fonts/afm/hoekwater/koeieletters/koeien-sy.afm usedmethod=direct
+used file       >   42: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr10.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr10.afm usedmethod=direct
+used file       >   43: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr12.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr12.afm usedmethod=direct
+used file       >   44: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr17.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr17.afm usedmethod=direct
+used file       >   45: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr5.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr5.afm usedmethod=direct
+used file       >   46: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr6.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr6.afm usedmethod=direct
+used file       >   47: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr7.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr7.afm usedmethod=direct
+used file       >   48: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr8.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr8.afm usedmethod=direct
+used file       >   49: filename=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr9.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/lm/lmr9.afm usedmethod=direct
+used file       >   50: filename=/usr/share/context/tex/texmf/fonts/afm/public/marvosym/marvosym.afm foundname=/usr/share/context/tex/texmf/fonts/afm/public/marvosym/marvosym.afm usedmethod=direct
+used file       >   51: filename=dejavusansmono filetype=ttf format=ttf foundname=/usr/share/context/tex/texmf/fonts/truetype/public/dejavu/DejaVuSansMono.ttf usedmethod=database
+used file       >   52: filename=lpdf-pdx.xml filetype=tex foundname=/usr/share/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
 
 system          > files > stop used files
 
@@ -519,29 +518,28 @@ system          > options > stop commandline files
 
 mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/home/mp/luatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e'
-mkiv lua stats  > resource resolver: loadtime 0.022 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 53 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 401 modules (0.817 sec), 88 tables (0.055 sec), 489 chunks (0.872 sec)
+mkiv lua stats  > resource resolver: loadtime 0.021 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 52 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 401 modules (0.790 sec), 88 tables (0.043 sec), 489 chunks (0.833 sec)
 mkiv lua stats  > traced context: maxstack: 1228, freed: 9, unreachable: 1219
 mkiv lua stats  > cleaned up reserved nodes: 70 nodes, 10 lists of 447
 mkiv lua stats  > node memory usage: 40 glue, 2 penalty, 121 attribute, 40 glue_spec, 37 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 341 calls
-mkiv lua stats  > h-node processing time: 0.075 seconds including kernel
-mkiv lua stats  > attribute processing time: 0.014 seconds front- and backend
+mkiv lua stats  > node list callback tasks: 6 unique task lists, 6 instances (re)created, 340 calls
+mkiv lua stats  > h-node processing time: 0.039 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.017 seconds front- and backend
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.002 seconds loading
-mkiv lua stats  > callbacks: 843 direct, 706 indirect, 1549 total
+mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: 837 direct, 751 indirect, 1588 total
 mkiv lua stats  > randomizer: resumed with value 0.14373431780549
 mkiv lua stats  > loaded patterns: en::2 es::54, load time: 0.000
 mkiv lua stats  > interactive elements: 8 references, 0 destinations
 mkiv lua stats  > result saved in file: curriculum.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > loaded fonts: 5 files: affogato-bold.otf, affogato-light.otf, affogato-medium.otf, affogato-regular.otf, dejavusansmono.ttf
-mkiv lua stats  > font engine: otf 3.027, afm 1.512, tfm 1.000, 12 instances, 7 shared in backend, 0 common vectors, 7 common hashes, load time 24.373 seconds 
-mkiv lua stats  > metapost processing time: 0.072 seconds, loading: 0.123, execution: 0.051, n: 17, average: 0.014, instances: 1, memory: 1.608 M
-mkiv lua stats  > graphics processing time: 0.014 seconds including tex, 1 processed images, 1 unique asked, 0 bad names
+mkiv lua stats  > font engine: otf 3.027, afm 1.512, tfm 1.000, 12 instances, 7 shared in backend, 0 common vectors, 7 common hashes, load time 16.420 seconds 
+mkiv lua stats  > metapost processing time: 0.040 seconds, loading: 0.071, execution: 0.025, n: 18, average: 0.008, instances: 1, memory: 1.609 M
 mkiv lua stats  > pdf annotations: 8 links (8 unique), 0 special
 mkiv lua stats  > used platform: linux, type: unix, binary subtree: texmf-linux
 mkiv lua stats  > luatex banner: this is luatex, version 1.0.0 (tex live 2017/dev)
-mkiv lua stats  > control sequences: 45047 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 181 MB (ctx: 178 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 26.898 seconds, 1 processed pages, 1 shipped pages, 0.037 pages/second
+mkiv lua stats  > control sequences: 45038 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 147 MB (ctx: 143 MB), hash type: lua, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 18.386 seconds, 1 processed pages, 1 shipped pages, 0.054 pages/second
 

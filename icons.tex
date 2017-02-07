@@ -116,4 +116,48 @@ draw b withcolor \MPcolor{dtext};
 draw (-.66u,1.5u)--(-.66u,2u)--(.66u,2u)--(.66u,1.5u) withcolor \MPcolor{dtext};
 \stopreusableMPgraphic
 
+\startreusableMPgraphic{logo}
+u :=1cm;
+pair A[],B[],C[];
+path a,b,c;
+
+%draw (origin -- 2u * dir 0 -- 2u * dir 90 -- 2u * dir 180 -- 2u * dir 270 -- cycle);
+
+A[0] := origin;
+A[1] := A[0] + 3u * dir 90;
+A[2] := A[1] + 3u * dir 150;
+A[3] := A[2] + 2u * dir 30;
+A[4] := A[3] + 3u * dir 330;
+A[5] := A[4] + 3u * dir 270;
+
+B[0] := A[5] + 1u * dir 30;
+B[1] := B[0] + 3u * dir 90;
+B[2] := B[1] + 2u * dir 30;
+B[3] := B[2] + 3u * dir 270;
+
+C[0] := B[3] + 1u * dir 30;
+C[1] := C[0] + 3u * dir 90;
+C[2] := C[1] + 2u * dir 30;
+C[3] := C[2] + 3u * dir 270;
+C[4] := C[3] + 3u * dir 330;
+C[5] := C[4] + 2u * dir 210;
+
+a := for i=0 step 1 until 5:
+A[i] --
+endfor cycle;
+
+b := for i=0 step 1 until 3:
+B[i] --
+endfor cycle;
+
+c := for i=0 step 1 until 5:
+C[i] --
+endfor cycle;
+
+fill a withcolor \MPcolor{texto};
+fill b withcolor \MPcolor{texto};
+fill c withcolor \MPcolor{texto};
+
+\stopreusableMPgraphic
+
 \stopenvironment
