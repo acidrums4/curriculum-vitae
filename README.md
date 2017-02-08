@@ -10,4 +10,4 @@ pueden crear invocando al archivo *compilar.sh*:
 
     % compilar.sh {modo}
 
-Se utiliza la fuente tipográficaa [*Affogato*](http://lobdell.me/affogato/ Affogato) (definida en *type-mosk.mkiv*), de licencia libre.
+Se utiliza la fuente tipográfica [*Affogato*](http://lobdell.me/affogato/ Affogato) (definida en *type-mosk.mkiv*), de licencia libre.
