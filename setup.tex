@@ -1,8 +1,10 @@
 \startenvironment setup
 
+%\showframe
+
 \enableregime[utf-8]
 
-\setuplayout[location=middle,width=middle,height=middle,marking=on,columns=2,backspace=20mm,leftmargin=20mm,rightmargin=20mm,leftmargindistance=0mm,rightmargindistance=0mm,leftedge=20mm,rightedge=20mm,leftedgedistance=20mm,rightedgedistance=20mm,footer=20mm,bottom=0mm,footerdistance=0mm,bottomdistance=0mm,topdistance=0mm,headerdistance=0mm,topspace=0mm,cutspace=20mm,textmargin=20mm,clipoffset=20mm]
+\setuplayout[location=middle,width=middle,height=middle,marking=on,columns=2,backspace=20mm,leftmargin=20mm,rightmargin=20mm,leftmargindistance=0mm,rightmargindistance=0mm,leftedge=20mm,rightedge=20mm,leftedgedistance=20mm,rightedgedistance=20mm,footer=20mm,bottom=0mm,footerdistance=0mm,bottomspace=20mm,bottomdistance=0mm,topdistance=0mm,headerdistance=0mm,topspace=0mm,cutspace=20mm,textmargin=20mm,clipoffset=20mm]
 
 \doifmodeelse{invoice,cotizar}{
 \setuppapersize[letter]
@@ -29,7 +31,7 @@
 \setuppagenumbering[location=]
 \setupinterlinespace[big]
 \setupfooter[]
-\setupfootertexts[][]
+\setupfootertexts[{\color[mtext]{---}\from[wportafolio]\color[mtext]{---}}]
 \setuptextrules[distance=0mm,width=0mm,rulecolor=ltext]
 \setupthinrules[color=ltext,before={\par\blank[small]},after={\par\blank[small]}]
 

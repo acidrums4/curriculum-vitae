@@ -1,5 +1,51 @@
 \startenvironment icons
 
+\startreusableMPgraphic{cedula}
+u := 1cm;
+pair A[],B[],C[],D[];
+path a,b,c,d;
+
+A[0] :=( 1.33u, 1.5u);
+A[1] :=( 1.33u,-.33u);
+A[2] :=(-1.33u,-.33u);
+A[3] :=(-1.33u, 1.5u);
+
+B[0] :=(-u, 1.125u);
+B[1] :=( 0, 1.125u);
+B[2] :=( 0,.625u);
+B[3] :=(-u,.625u);
+
+C[0] :=(.375u, .75u);
+C[1] :=(.625u,1.125u);
+C[2] :=(.87 u, .75u);
+C[3] :=(.625u, .375u);
+
+D[0] :=( .25u,.125u);
+D[1] :=(.625u, .375u);
+D[2] :=(    u,.125u);
+
+pickup pencircle scaled 3bp;
+a := for i=0 step 1 until 3:
+	A[i]--
+endfor cycle;
+
+b := for i=0 step 1 until 3:
+	B[i]--
+endfor cycle;
+
+c := for i=0 step 1 until 3:
+	C[i]..
+endfor cycle;
+
+draw a withcolor \MPcolor{dtext};
+draw b withcolor \MPcolor{dtext};
+draw c withcolor \MPcolor{dtext};
+draw D[0]..D[1]..D[2] withcolor \MPcolor{dtext};
+draw (-u,.375u)--(0,.375u) withcolor \MPcolor{dtext};
+draw (-u,.125u)--(0,.125u) withcolor \MPcolor{dtext};
+
+\stopreusableMPgraphic
+
 \startreusableMPgraphic{ncmnto}
 u := 1cm;
 pair A[],D[];
