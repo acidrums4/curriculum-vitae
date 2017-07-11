@@ -4,14 +4,16 @@
 
 \enableregime[utf-8]
 
-\setuplayout[location=middle,width=middle,height=middle,marking=on,columns=2,backspace=20mm,leftmargin=20mm,rightmargin=20mm,leftmargindistance=0mm,rightmargindistance=0mm,leftedge=20mm,rightedge=20mm,leftedgedistance=20mm,rightedgedistance=20mm,footer=20mm,bottom=0mm,footerdistance=0mm,bottomspace=20mm,bottomdistance=0mm,topdistance=0mm,headerdistance=0mm,topspace=0mm,cutspace=20mm,textmargin=20mm,clipoffset=20mm]
+\setuplayout[location=middle,width=middle,height=middle,marking=on,columns=2,backspace=20mm,leftmargin=20mm,rightmargin=20mm,leftmargindistance=0mm,rightmargindistance=0mm,leftedge=20mm,rightedge=20mm,leftedgedistance=20mm,rightedgedistance=20mm,bottom=0mm,footerdistance=0mm,bottomdistance=0mm,topdistance=0mm,headerdistance=0mm,topspace=0mm,cutspace=20mm,textmargin=20mm,clipoffset=20mm]
 
 \doifmodeelse{invoice,cotizar}{
 \setuppapersize[letter]
-\setuplayout[textwidth=216mm,header=30mm]
+\setuplayout[textwidth=216mm,header=25mm,footer=8mm,bottomspace=10mm]
+\setupbodyfont[mosk,10pt]
 }{
 \setuppapersize[tabloid,landscape]
-\setuplayout[textwidth=279mm,header=20mm]}
+\setuplayout[textwidth=279mm,header=20mm,footer=20mm,bottomspace=20mm]
+\setupbodyfont[mosk]}
 
 \mainlanguage[es]
 \setuplanguage[es][leftquote=\upperleftsinglesixquote,rightquote=\upperrightsingleninequote,leftquotation=\leftguillemot,rightquotation=\rightguillemot]
@@ -19,10 +21,6 @@
 \setupalign[hz,hanging]
 \usetypescriptfile[type-mosk]
 \usetypescript[mosk]
-
-\doifmodeelse{invoice,cotizar}
-{\setupbodyfont[mosk,9pt]}
-{\setupbodyfont[mosk]}
 
 \setupbackgrounds[page][background=color,backgroundcolor=fondo]
 
@@ -65,34 +63,25 @@
 \define[2]\seccion{\blank[3*big]\startdoscolumnas\blackrule[color=fondo,width=.1665\makeupwidth,height=.75em]\doscolumnas\textrule[top]{\kerncharacters[.15]\bf\ss\WORDS\color[mtext]{#1} #2\hskip.5em}\stopdoscolumnas}
 \define[1]\lseccion{\textrule[top]{\kerncharacters[.15]\bf\ss\WORDS\color[mtext]{#1}\hskip.5em}\blank[5mm]}
 
-\def\tituloinvoice{
-\blank[6*big]\startDosColumnas\startdoscolumnas
-\blackrule[color=fondo,width=.1665\makeupwidth,height=.75em]
-\doscolumnas
-{\sa\kerncharacters[0.15]\color[azulv]{\doifmode{invoice}{Cuenta de cobro}\doifmode{cotizar}{Cotización}}}
-\stopdoscolumnas\DosColumnas
-\rightaligned{\tfb\kerncharacters[0.15]\color[mtext]{\textnumero\ }\env{numero}-\env{fecha}}
-\stopDosColumnas\blank[4*big]}
+\def\tituloinvoice#1{
+\blank[7mm]\startdoscolumnas\rightaligned{\color[azulv]{\WORDS\kerncharacters[.15]{\bf \doifmode{invoice}{Cuenta de cobro}\doifmode{cotizar}{Cotización}}}}
+\doscolumnas{\tfa{#1}}
+\stopdoscolumnas\null\vfill}
 
-\def\metadatoinvoice#1#2{
-\startdoscolumnas\rightaligned{\color[mtext]{\WORDS\kerncharacters[.15]{#1}}}
-\doscolumnas{\tfa{#2}}
-\stopdoscolumnas}
-
-\def\startlineainvoice{\blank[big]\doifmode{cotizar}{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas
-\startcolsInvoice\color[mtext]{\$/hora}\colsInvoice\color[mtext]{\sc subtotal}\stopcolsInvoice\stopDosColumnas}
+\def\startlineainvoice{\doifmode{cotizar}{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas
+\startcolsInvoice\color[mtext]{\$/semana}\colsInvoice\color[mtext]{\sc subtotal}\stopcolsInvoice\stopDosColumnas}
 \doifmode{invoice}{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas\phantom{.}\stopDosColumnas}
-\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\thinrule\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas\blank[medium]}
+\vskip-8mm\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas\blank[medium]}
 
-\def\stoplineainvoice{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\thinrule\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas}
+\def\stoplineainvoice{\vskip-6mm\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\thinrule\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas}
 
 \def\iteminvoice[#1][#2][#3]#4#5{
 \startDosColumnas
 \startdoscolumnas
-\rightaligned{#1\doifmode{cotizar}{\color[mtext]{ hora(s)}}}
+\rightaligned{#1\doifmode{cotizar}{\color[mtext]{ semana(s)}}}
 \doscolumnas
 {\tfa\color[azulv]{{#4}\filler[dots]}}\par
-\ifx\relax#2\relax\else\startitemize[packed]#2\stopitemize\fi
+\ifx\relax#2\relax\else\startitemize[packed][distance=-1.75ex,before={\vskip2pt}]#2\stopitemize\fi
 \stopdoscolumnas\DosColumnas
 \startcolsInvoice
 \color[mtext]{\$ #3}\colsInvoice\bfa\color[mtext]{\$ #5}
@@ -103,12 +92,12 @@
 \doscolumnas\rightaligned{\bfb\WORDS\color[azulv]{Total}}\par\stopdoscolumnas
 \DosColumnas\rightaligned{\bfb{\color[mtext]{COP\$} #1}}\stopDosColumnas}
 
-\def\notainvoice[#1]{\blank[3*big]\startDosColumnas
+\def\notainvoice[#1]{\null\vfill
 \startdoscolumnas\rightaligned{\color[mtext]{\WORDS\kerncharacters[.15]{NOTAS}}}
 \doscolumnas
 \startitemize[KR,packed][itemalign=flushright,stopper={ --- }]
 \item Todos los precios están dados en pesos colombianos.#1\stopitemize
-\DosColumnas\stopDosColumnas\stopdoscolumnas\blank[3*big]}
+\stopdoscolumnas}
 
 \def\itemcv{\doquadrupleempty\itemCV}
 \def\itemCV[#1][#2][#3][#4]#5#6{
@@ -154,7 +143,9 @@ label (btex {\sM\color[mtext]{#1\%}} etex, c) ;
 }
 
 \def\metadato[#1]#2#3{
-\hbox{\scale[width=1em]{\reuseMPgraphic{#2}}\tfx{\hskip2ex\color[mtext]{#1\ifx\relax#1\relax\else\ \textbullet\ \fi}{\sm\color[dtext]{#3}}}}
+\doifmodeelse{invoice,cotizar}
+{\hbox{\scale[width=1em]{\reuseMPgraphic{#2}}{\hskip1ex\switchtobodyfont[8.5pt]\color[mtext]{#1\ifx\relax#1\relax\else\ \textbullet\ \fi}{\sm\color[dtext]{#3}}}}}
+{\hbox{\scale[width=1em]{\reuseMPgraphic{#2}}\tfx{\hskip2ex\color[mtext]{#1\ifx\relax#1\relax\else\ \textbullet\ \fi}{\sm\color[dtext]{#3}}}}}
 }
 
 \useurl[wportafolio][http://acidrums4.github.io/][][{\sm\color[dtext]{acidrums4.github.io}}]

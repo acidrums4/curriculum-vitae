@@ -3,7 +3,7 @@
 \startDosColumnas
 
 \startdoscolumnas
-\vskip1mm\externalfigure[logotipo][width=.1665\textwidth]
+\vskip1mm\scale[width=.1665\textwidth]{\reuseMPgraphic{logo}}
 \doscolumnas
 \nombre{Miler}\blank[small]
 \nombre{Moreno}\blank[medium]
@@ -12,41 +12,54 @@
 
 \DosColumnas
 
-\startcolor[mtext]
-\startalignment[right]
 \vskip-1mm
-{\kerncharacters[.075]\color[dtext]{\date}}
+%{\kerncharacters[.075]\color[dtext]{\date}}
+{\tfb\kerncharacters[0.15]\color[mtext]{\textnumero\ }\env{numero}-\env{fecha}}
 \blank[medium]\textrule\blank[medium]
-Celular \textbullet\ {\sm\color[dtext]{(57 1) 300 656 9075}}\par
-e-mail \textbullet\  {\from[correogmail]}\par
-portafolio \textbullet\  {\from[wportafolio]}
-\stopalignment
-\vskip-1mm
-\stopcolor
+\metadato[C.C.]{cedula}{1 032 405 629, Bogotá}
+\metadato[]{correo}{\from[correogmail]}
+\metadato[]{portfl}{\from[wportafolio]}
 
 \stopDosColumnas
 
-\tituloinvoice
-\metadatoinvoice{Referencia}{Blog para el sitio \quote{controlyconfort.com}}
+\tituloinvoice{Rediseño para fraseg.com}
 
 \startlineainvoice
 
+\iteminvoice[2][
+\item Estudio de tendencias en diseño en sitios similares
+\item Estudio de tendencias en UX e AI
+\item Conclusiones, recomendaciones y entrega
+][250 000]
+{Benchmarking}{500 000}
+
+\iteminvoice[1][
+\item Adecuación de identidad existente
+\item Vectorización de logotipos
+\item Paleta de colores, tipografía, iconografía
+][250 000]
+{Identidad gráfica}{250 000}
+
 \iteminvoice[3][
-\item Instalación y parametrización de WordPress][8 500]
-{Instalación de la plataforma de blog}{25 500}
+\item Mapa de navegación, AI, copy
+\item Prototipos en baja (wireframes) para escritorio y móvil
+\item Prototipos en alta (wireframes) para escritorio y móvil
+][300 000]
+{Propuesta de diseño visual, UX y AI}{900 000}
 
-\iteminvoice[1][][8 500]
-{Vinculación al sitio web}{8 500}
+\iteminvoice[4][
+\item Maquetación (HTML5, CSS3, SVG, Bootstrap 3)
+\item Adaptación a CMS
+\item Optimización orientada a dispositivos móviles
+][320 000]
+{Maquetación}{1 280 000}
 
-\iteminvoice[2][][8 500]
-{Ajustes a la base de datos del sitio web}{17 000}
+\totalinvoice{2 930 000}
 
-\iteminvoice[2][][8 500]
-{Preparación e inicialización del blog}{17 000}
-
-\totalinvoice{68 000}
-\vfill
-\notainvoice[\item Los cambios adicionales a lo estipulado se cobrarán a razón de \$9 500 por hora.]
-\midaligned{\kerncharacters[0.15]\color[azulv]{\bfb\from[xportafolio]}}
+\notainvoice[
+\item El tiempo por punto es estimado. Puede variar al definirse más requisitos y detalles del proyecto.
+\item Cada entrega de cada punto será revisado y aprobado antes de proceder al siguiente.
+\item El cliente cancelará un porcentaje del valor (total o por punto) previo al inicio del proyecto o punto en cuestión; el porcentaje restante será cancelado inmediatamente después de la(s) entrega(s).
+\item Una vez se defina un cronograma de actividades más preciso y en caso de cumplir con los tiempos establecidos, se cobrará cada semana de trabajo adicional a razón de \$340 000 por semana.]
 
 \stopcomponent
