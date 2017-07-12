@@ -6,7 +6,14 @@
 
 \setuplayout[location=middle,width=middle,height=middle,marking=on,columns=2,backspace=20mm,leftmargin=20mm,rightmargin=20mm,leftmargindistance=0mm,rightmargindistance=0mm,leftedge=20mm,rightedge=20mm,leftedgedistance=20mm,rightedgedistance=20mm,bottom=0mm,footerdistance=0mm,bottomdistance=0mm,topdistance=0mm,headerdistance=0mm,topspace=0mm,cutspace=20mm,textmargin=20mm,clipoffset=20mm]
 
-\doifmodeelse{invoice,cotizar}{
+\mainlanguage[es]
+\setuplanguage[es][leftquote=\upperleftsinglesixquote,rightquote=\upperrightsingleninequote,leftquotation=\leftguillemot,rightquotation=\rightguillemot]
+
+\setupalign[hz,hanging]
+\usetypescriptfile[type-mosk]
+\usetypescript[mosk]
+
+\doifmodeelse{factura,cotizar}{
 \setuppapersize[letter]
 \setuplayout[textwidth=216mm,header=25mm,footer=8mm,bottomspace=10mm]
 \setupbodyfont[mosk,10pt]
@@ -14,13 +21,6 @@
 \setuppapersize[tabloid,landscape]
 \setuplayout[textwidth=279mm,header=20mm,footer=20mm,bottomspace=20mm]
 \setupbodyfont[mosk]}
-
-\mainlanguage[es]
-\setuplanguage[es][leftquote=\upperleftsinglesixquote,rightquote=\upperrightsingleninequote,leftquotation=\leftguillemot,rightquotation=\rightguillemot]
-
-\setupalign[hz,hanging]
-\usetypescriptfile[type-mosk]
-\usetypescript[mosk]
 
 \setupbackgrounds[page][background=color,backgroundcolor=fondo]
 
@@ -33,22 +33,24 @@
 \setuptextrules[distance=0mm,width=0mm,rulecolor=ltext]
 \setupthinrules[color=ltext,before={\par\blank[small]},after={\par\blank[small]}]
 
-\doifmode{invoice}{\setupinteraction[state=start,title={Cuenta de cobro \textnumero\ \env{numero}},style=normal,color=mtext,page=yes,click=yes]}
+\doifmode{factura}{\setupinteraction[state=start,title={Factura \textnumero\ \env{numero}},style=normal,color=mtext,page=yes,click=yes]}
 \doifmode{cotizar}{\setupinteraction[state=start,title={Cotización \textnumero\ \env{numero}},style=normal,color=mtext,page=yes,click=yes]}
-\doifnotallmodes{invoice,cotizar}{\setupinteraction[state=start,title={Curriculum Vitae},style=normal,color=mtext,page=yes,click=yes]}
+\doifnotallmodes{factura,cotizar}{\setupinteraction[state=start,title={Curriculum Vitae},style=normal,color=mtext,page=yes,click=yes]}
 
-\doifmodeelse{invoice,cotizar}{
+\doifmodeelse{factura,cotizar}{
 \defineparagraphs[doscolumnas][n=2,rule=off,distance=6mm]
 \defineparagraphs[DosColumnas][n=2,rule=off,distance=12mm]
 \defineparagraphs[colsInvoice][n=2,rule=off,distance=6mm]
 }{
 \defineparagraphs[doscolumnas][n=2,rule=off,distance=10mm]
-\defineparagraphs[DosColumnas][n=2,rule=off,distance=20mm]}
+\defineparagraphs[DosColumnas][n=2,rule=off,distance=20mm]
+\defineparagraphs[skillColumn][n=2,rule=off,distance=2mm]}
 
 \setupparagraphs[doscolumnas][1][width=.1665\makeupwidth,align=flushright]
 \setupparagraphs[DosColumnas][1][width=.666\makeupwidth]
 \setupparagraphs[colsInvoice][1][width=.1\makeupwidth,align=flushright]
 \setupparagraphs[colsInvoice][2][align=flushright]
+\setupparagraphs[skillColumn][2][align=flushright]
 
 \definebodyfontenvironment[default][d=4]
 \definefont[sm][name:affogatomedium]
@@ -61,17 +63,17 @@
 \define[1]\nombre{\kerncharacters[-.09]\tfd\WORDS\bf\color[azulv]{#1}\par}
 \define[1]\subtitulo{\kerncharacters[.175]\sl\WORDS{#1}\par}
 \define[2]\seccion{\blank[3*big]\startdoscolumnas\blackrule[color=fondo,width=.1665\makeupwidth,height=.75em]\doscolumnas\textrule[top]{\kerncharacters[.15]\bf\ss\WORDS\color[mtext]{#1} #2\hskip.5em}\stopdoscolumnas}
-\define[1]\lseccion{\textrule[top]{\kerncharacters[.15]\bf\ss\WORDS\color[mtext]{#1}\hskip.5em}\blank[5mm]}
+\def\lseccion[#1]#2{\textrule[top]{{\kerncharacters[.15]\WORDS\color[mtext]{#2}}\ifx\relax#1\relax\else{\kerncharacters[.15]\WORDS\color[mtext]{: }\color[texto]{#1}}\fi\hskip.5em}\blank[5mm]}
+
+
+\def\numeroinvoice{{\tfb\kerncharacters[0.15]\color[mtext]{\textnumero\ }\doifmode{factura}{F}\doifmode{cotizar}{C}\env{numero}-\env{fecha}}}
 
 \def\tituloinvoice#1{
-\blank[7mm]\startdoscolumnas\rightaligned{\color[azulv]{\WORDS\kerncharacters[.15]{\bf \doifmode{invoice}{Cuenta de cobro}\doifmode{cotizar}{Cotización}}}}
-\doscolumnas{\tfa{#1}}
+\blank[7mm]\startdoscolumnas\rightaligned{\color[azulv]{\WORDS\kerncharacters[.15]{\bf \doifmode{factura}{Factura}\doifmode{cotizar}{Cotización}}}}\doscolumnas{\tfa{#1}}
 \stopdoscolumnas\null\vfill}
 
-\def\startlineainvoice{\doifmode{cotizar}{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas
-\startcolsInvoice\color[mtext]{\$/semana}\colsInvoice\color[mtext]{\sc subtotal}\stopcolsInvoice\stopDosColumnas}
-\doifmode{invoice}{\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas\phantom{.}\stopDosColumnas}
-\vskip-8mm\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\phantom{.}\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas\blank[medium]}
+\def\startlineainvoice{\startDosColumnas\startdoscolumnas\null\doscolumnas\null\stopdoscolumnas\DosColumnas
+\doifmode{cotizar}{\startcolsInvoice\color[mtext]{\$/semana}\colsInvoice\color[mtext]{\tfx\WORDS subtotal}\stopcolsInvoice}\doifmode{factura}{\null}\stopDosColumnas\startDosColumnas\startdoscolumnas\null\doscolumnas\null\stopdoscolumnas\DosColumnas\doifmode{cotizar}{\thinrule}\doifmode{factura}{\null}\stopDosColumnas}
 
 \def\stoplineainvoice{\vskip-6mm\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}\doscolumnas\thinrule\stopdoscolumnas\DosColumnas\thinrule\stopDosColumnas}
 
@@ -89,7 +91,7 @@
 
 \def\totalinvoice#1{
 \stoplineainvoice\startDosColumnas\startdoscolumnas\rightaligned{\phantom{.}}
-\doscolumnas\rightaligned{\bfb\WORDS\color[azulv]{Total}}\par\stopdoscolumnas
+\doscolumnas\rightaligned{\bfb\color[azulv]{\kerncharacters[.15]\WORDS Total}}\par\stopdoscolumnas
 \DosColumnas\rightaligned{\bfb{\color[mtext]{COP\$} #1}}\stopDosColumnas}
 
 \def\notainvoice[#1]{\null\vfill
@@ -142,8 +144,29 @@ label (btex {\sM\color[mtext]{#1\%}} etex, c) ;
 \hbox{\reuseMPgraphic{porcentaje:#1}\framedtext[frame=off,height=19mm,top=\vss,bottom=\vss]{\vskip-4ex#2}}\par\blank[big]
 }
 
+\def\skill#1#2{
+\startreusableMPgraphic{nivel:#1}
+u := 4mm;
+pair Z[];
+Z[1] := (   u,0);
+Z[2] := (2.5u,0);
+Z[3] := (  4u,0);
+Z[4] := (5.5u,0);
+Z[5] := (  7u,0);
+draw Z[1] -- Z[5] withpen pencircle scaled 3bp withcolor 1.05\MPcolor{ltext};
+for i = 1 upto 5:
+filldraw fullcircle scaled u shifted Z[i] withcolor 1.05\MPcolor{ltext};
+filldraw fullcircle scaled .5u shifted Z[i] withcolor \MPcolor{fondo};
+endfor;
+draw Z[1] -- Z[#1] withpen pencircle scaled 3bp withcolor \MPcolor{azulv};
+for i = 1 upto #1:
+filldraw fullcircle scaled u shifted Z[i] withcolor \MPcolor{azulv};
+endfor;
+\stopreusableMPgraphic
+\startskillColumn\color[dtext]{#2}\skillColumn\rightaligned{\reuseMPgraphic{nivel:#1}}\stopskillColumn}
+
 \def\metadato[#1]#2#3{
-\doifmodeelse{invoice,cotizar}
+\doifmodeelse{factura,cotizar}
 {\hbox{\scale[width=1em]{\reuseMPgraphic{#2}}{\hskip1ex\switchtobodyfont[8.5pt]\color[mtext]{#1\ifx\relax#1\relax\else\ \textbullet\ \fi}{\sm\color[dtext]{#3}}}}}
 {\hbox{\scale[width=1em]{\reuseMPgraphic{#2}}\tfx{\hskip2ex\color[mtext]{#1\ifx\relax#1\relax\else\ \textbullet\ \fi}{\sm\color[dtext]{#3}}}}}
 }
