@@ -61,7 +61,7 @@
 
 \definefiller[dots][align=flushright,width=1ex,left=\dontleavehmode,right=\hskip.5ex\par]
 
-\define[1]\nombre{\kerncharacters[-.07]\tfd\WORDS\bf{#1}\par}
+\define[1]\nombre{\kerncharacters[-.07]\tfd\WORDS\bf{\color[azulv]{#1}}\par}
 \define[1]\subtitulo{\kerncharacters[.175]\sl\WORDS{#1}\par}
 \define[2]\seccion{\blank[3*big]\startdoscolumnas\blackrule[color=fondo,width=.1665\makeupwidth,height=.75em]\doscolumnas\textrule[top]{\kerncharacters[.15]\bf\ss\WORDS\color[mtext]{#1} #2\hskip.5em}\stopdoscolumnas\vskip-20pt}
 \def\lseccion[#1]#2{\textrule[top]{{\kerncharacters[.15]\WORDS\color[mtext]{#2}}\ifx\relax#1\relax\else{\kerncharacters[.15]\WORDS\color[mtext]{: }\color[texto]{#1}}\fi\hskip.5em}\blank[5mm]}
@@ -122,7 +122,7 @@
 \startdoscolumnas
 \ifx\relax#1\relax
 \blackrule[color=fondo,width=.1665\makeupwidth,height=.75em]
-\else\color[mtext]{#1}
+\else\color[mtext]{\tx#1}
 \ifx\relax#2\relax\else
 \par
 \color[mtext]{\tx(#2)}\fi\fi
@@ -139,7 +139,7 @@ pair c;
 c := (0,0);
 porcentaje := (#1 * 8) / 100;
 draw fullcircle scaled 50 withcolor .925\MPcolor{fondo};
-draw subpath (0,porcentaje) of fullcircle scaled 50 rotated 90 xscaled -1 withpen pencircle scaled 4bp withcolor \MPcolor{dtext};
+draw subpath (0,porcentaje) of fullcircle scaled 50 rotated 90 xscaled -1 withpen pencircle scaled 4bp withcolor \MPcolor{azulv};
 label (btex {\sM\color[texto]{#1\%}} etex, c) ;
 \stopreusableMPgraphic
 \hbox{\reuseMPgraphic{porcentaje:#1}\framedtext[frame=off,height=19mm,top=\vss,bottom=\vss]{\vskip-4ex#2}}\par\blank[big]
@@ -154,17 +154,17 @@ Z[2] := (2.5u,0);
 Z[3] := (  4u,0);
 Z[4] := (5.5u,0);
 Z[5] := (  7u,0);
-draw Z[1] -- Z[5] withpen pencircle scaled 3bp withcolor 1.05\MPcolor{ltext};
+draw Z[1] -- Z[5] withpen pencircle scaled 0.5bp withcolor \MPcolor{azulv};
 for i = 1 upto 5:
-filldraw fullcircle scaled u shifted Z[i] withcolor 1.05\MPcolor{ltext};
-filldraw fullcircle scaled .5u shifted Z[i] withcolor \MPcolor{fondo};
+filldraw fullcircle scaled u shifted Z[i] withcolor \MPcolor{azulv};
+filldraw fullcircle scaled .9u shifted Z[i] withcolor \MPcolor{fondo};
 endfor;
-draw Z[1] -- Z[#1] withpen pencircle scaled 3bp withcolor \MPcolor{texto};
+draw Z[1] -- Z[#1] withpen pencircle scaled 3bp withcolor \MPcolor{azulv};
 for i = 1 upto #1:
-filldraw fullcircle scaled u shifted Z[i] withcolor \MPcolor{texto};
+filldraw fullcircle scaled u shifted Z[i] withcolor \MPcolor{azulv};
 endfor;
 \stopreusableMPgraphic
-\startskillColumn\color[dtext]{#2}\skillColumn\rightaligned{\reuseMPgraphic{nivel:#1}}\stopskillColumn\vskip-20pt}
+\startskillColumn\color[texto]{#2}\skillColumn\rightaligned{\reuseMPgraphic{nivel:#1}}\stopskillColumn\vskip-20pt}
 
 \def\metadato[#1]#2#3{
 \doifmodeelse{factura,cotizar}
